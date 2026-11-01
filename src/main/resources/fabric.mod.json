@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "maliperf",
+  "version": "1.0.0",
+  "name": "MaliPerf Optimizer",
+  "description": "Otimizador de baixa camada para renderizacao.",
+  "authors": ["Voce"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.maliperf.MaliPerfClient"
+    ]
+  },
+  "mixins": [
+    "maliperf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
